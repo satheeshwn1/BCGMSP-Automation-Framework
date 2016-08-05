@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BCGMSP.iml" filepath="$PROJECT_DIR$/.idea/modules/BCGMSP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BCGMSP_main.iml" filepath="$PROJECT_DIR$/.idea/modules/BCGMSP_main.iml" group="BCGMSP" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BCGMSP_test.iml" filepath="$PROJECT_DIR$/.idea/modules/BCGMSP_test.iml" group="BCGMSP" />
+    </modules>
+  </component>
+</project>

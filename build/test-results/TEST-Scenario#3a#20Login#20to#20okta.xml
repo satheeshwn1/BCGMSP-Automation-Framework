@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: Login to okta" tests="6" skipped="4" failures="2" errors="0" timestamp="2016-08-05T12:36:25" hostname="in-satheesh.local" time="0.005">
+  <properties/>
+  <testcase name="Given the OKTA url" classname="Scenario: Login to okta" time="0.002">
+    <failure message="org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC&#10;Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'&#10;System info: host: 'in-satheesh.local', ip: '10.134.22.78', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.3', java.version: '1.8.0_91'&#10;Driver info: driver.version: FirefoxDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'in-satheesh.local', ip: '10.134.22.78', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.3', java.version: '1.8.0_91'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.Executable.&lt;init&gt;(Executable.java:75)
+	at org.openqa.selenium.firefox.FirefoxBinary.&lt;init&gt;(FirefoxBinary.java:60)
+	at org.openqa.selenium.firefox.FirefoxBinary.&lt;init&gt;(FirefoxBinary.java:56)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:120)
+	at skeleton.Stepdefs.the_OKTA_url(Stepdefs.java:27)
+	at ✽.Given the OKTA url(skeleton/belly.feature:4)
+</failure>
+  </testcase>
+  <testcase name="When I enter username" classname="Scenario: Login to okta" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter Password" classname="Scenario: Login to okta" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="When I click signin button" classname="Scenario: Login to okta" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I should be loggedin" classname="Scenario: Login to okta" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="classMethod" classname="Scenario: Login to okta" time="0.465">
+    <failure message="org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC&#10;Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'&#10;System info: host: 'in-satheesh.local', ip: '10.134.22.78', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.3', java.version: '1.8.0_91'&#10;Driver info: driver.version: FirefoxDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'in-satheesh.local', ip: '10.134.22.78', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.3', java.version: '1.8.0_91'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.Executable.&lt;init&gt;(Executable.java:75)
+	at org.openqa.selenium.firefox.FirefoxBinary.&lt;init&gt;(FirefoxBinary.java:60)
+	at org.openqa.selenium.firefox.FirefoxBinary.&lt;init&gt;(FirefoxBinary.java:56)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:120)
+	at skeleton.Stepdefs.the_OKTA_url(Stepdefs.java:27)
+	at ✽.Given the OKTA url(skeleton/belly.feature:4)
+</failure>
+  </testcase>
+  <system-out><![CDATA[1
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
